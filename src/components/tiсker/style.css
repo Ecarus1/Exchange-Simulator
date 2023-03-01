@@ -1,0 +1,45 @@
+.ticker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  border: 1px solid #000000;
+  padding: 30px;
+  min-height: 200px;
+}
+
+.ticker__box {
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.ticker__currency {
+  text-transform: uppercase;
+}
+
+.ticker__controll {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.ticker__btn {
+  text-transform: uppercase;
+  height: 30px;
+  width: 100%;
+}
+
+.ticker__btn-sell {
+  background-color: #ffbaba;
+}
+
+.ticker__btn-buy {
+  background-color: #baffc5;
+}
+
+.ticker__controll-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 80px;
+}

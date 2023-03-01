@@ -1,0 +1,4 @@
+.list-ticker {
+  display: flex;
+  flex-wrap: wrap;
+}
